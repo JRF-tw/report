@@ -1,0 +1,61 @@
+.bg-default{
+  background: linear-gradient(45deg,#ce9eb7,#4d88a0);
+}
+.list-unstyled li{
+  padding: 5px;
+  font-size: 0.95em;
+}
+.jumbotron {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  margin-bottom: 0;
+  background-color: #fff;
+}
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+}
+
+.jumbotron p:last-child {
+  margin-bottom: 0;
+}
+
+.jumbotron h1 {
+  font-weight: 300;
+}
+
+.jumbotron .container {
+  max-width: 40rem;
+}
+
+.btn-dt{
+  background: linear-gradient(45deg,#ce9eb7,#4d88a0);
+  border:#ffffff 1px solid;
+  border-radius: 30px;
+  color:#ffffff;
+  font-weight: 600;
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+
+.btn-dt:hover{
+  background: #ffffff;
+  border: #000000 3px solid;
+  color:#000000;
+}
+
+.btn-outline-secondary:hover{
+  color: #ffffff;
+  background: linear-gradient(45deg,#ce9eb7,#4d88a0);
+}
+
+footer {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+footer p {
+  margin-bottom: .25rem;
+}
